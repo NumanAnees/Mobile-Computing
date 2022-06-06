@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mobile Computing/KidsApp/app/src/main/res/layout/activity_animal.xml" value="0.18" />
+        <entry key="..\:/Mobile Computing/KidsApp/app/src/main/res/layout/activity_custom_list_view.xml" value="0.1213768115942029" />
+        <entry key="..\:/Mobile Computing/KidsApp/app/src/main/res/layout/activity_list_of_animals.xml" value="0.16" />
         <entry key="..\:/Mobile Computing/KidsApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Mobile Computing/KidsApp/app/src/main/res/layout/all_animals.xml" value="0.1078125" />
       </map>
     </option>
   </component>

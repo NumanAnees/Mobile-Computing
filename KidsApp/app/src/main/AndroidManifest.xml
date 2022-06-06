@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KidsApp">
         <activity
+            android:name=".CustomListView"
+            android:exported="false" />
+        <activity
+            android:name=".All_Animals"
+            android:exported="false" />
+        <activity
+            android:name=".Alpha"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

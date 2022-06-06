@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent;
         Uri webPage=Uri.parse("https://github.com/NumanAnees/Mobile-Computing");
         switch (view.getId()){
-            case R.id.start:
-               // intent=new Intent(this,Alpha.class);
-                //startActivity(intent);
+            case R.id.learn:
+                intent=new Intent(this,Alpha.class);
+                startActivity(intent);
                 break;
             case R.id.quiz:
                 //intent=new Intent(this,Quiz.class);
