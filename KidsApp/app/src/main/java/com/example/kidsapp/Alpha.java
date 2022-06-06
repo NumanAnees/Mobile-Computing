@@ -14,9 +14,8 @@ public class Alpha extends AppCompatActivity {
             "Penguin","Quail","Rabbit","Snake","Tiger","Uguisu","Vicuna","Wolf","Xerus","Yak","Zebra"};
 
     int Images[]= { R.drawable.ant,R.drawable.bat,R.drawable.cat ,R.drawable.dog,R.drawable.elephant, R.drawable.fish, R.drawable.giraffe,
-            R.drawable.horse,R.drawable.ibex,R.drawable.Jaguar,R.drawable.kangaroo,R.drawable.lion,R.drawable.monkey,R.drawable.nilgai,R.drawable.ostrich,
+            R.drawable.horse,R.drawable.ibex,R.drawable.jaguar,R.drawable.kangaroo,R.drawable.lion,R.drawable.monkey,R.drawable.nilgai,R.drawable.ostrich,
             R.drawable.penguin,R.drawable.quail,R.drawable.rabbit,R.drawable.snake,
             R.drawable.tiger,R.drawable.uguisu,R.drawable.vicuna,R.drawable.wolf,R.drawable.xerus,R.drawable.yak,R.drawable.zebra};
 
-   
 }
