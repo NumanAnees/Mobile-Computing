@@ -14,9 +14,6 @@
         android:theme="@style/Theme.QuranApp"
         tools:targetApi="31">
         <activity
-            android:name=".Home"
-            android:exported="false" />
-        <activity
             android:name=".AyahList"
             android:exported="false" />
         <activity

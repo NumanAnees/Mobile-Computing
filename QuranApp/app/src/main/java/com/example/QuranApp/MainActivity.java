@@ -97,14 +97,12 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId())
                 {
                     case R.id.home :
-                        Toast.makeText(getApplicationContext(),"Retur is Clicked",Toast.LENGTH_LONG).show();
                         intent = new Intent(MainActivity.this, MainActivity.class);
                         startActivity(intent);
                         //drawerLayout.closeDrawer(GravityCompat.START);
                         break;
 
                     case R.id.surah_list :
-                        Toast.makeText(getApplicationContext(),"Retur is Clicked",Toast.LENGTH_LONG).show();
                         intent = new Intent(MainActivity.this, SurahList.class);
                         startActivity(intent);
                         //drawerLayout.closeDrawer(GravityCompat.START);
@@ -112,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
 
 
                     case R.id.nav_chrome_reader :
-                        Toast.makeText(getApplicationContext(),"Chrome Reader is clicked",Toast.LENGTH_LONG).show();
                         drawerLayout.closeDrawer(GravityCompat.START);
                         break;
                 }
