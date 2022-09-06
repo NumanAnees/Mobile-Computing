@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/surah_list"
+            android:icon="@drawable/quran_icon1"
+            android:title="Surah" />
+
+    </group>
+
+
+    <item android:title="Reading">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_chrome_reader"
+                    android:icon="@drawable/chrome_reader"
+                    android:title="Chrome Reader" />
+                <item
+                    android:id="@+id/nav_rea_more"
+                    android:icon="@drawable/read_more"
+                    android:title="Read More" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Comments">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Nav_add_comment"
+                    android:icon="@drawable/add_comment"
+                    android:title="Add Comment" />
+                <item
+                    android:id="@+id/nav_insert_comment"
+                    android:icon="@drawable/insert_comment"
+                    android:title="Insert Comment" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
