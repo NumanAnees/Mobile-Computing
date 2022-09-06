@@ -27,7 +27,7 @@
             android:id="@+id/SurahActivity"
             android:layout_width="221dp"
             android:layout_height="76dp"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="80dp"
             android:layout_marginTop="339dp"
             android:layout_marginBottom="130dp"
             android:backgroundTint="#F02DEAB5"
