@@ -1,4 +1,4 @@
-package com.example.crud;
+package com.example.databasemc;
 
 import org.junit.Test;
 
