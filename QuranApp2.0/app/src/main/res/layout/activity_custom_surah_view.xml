@@ -1,48 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".CustomSurahView">
+    android:layout_height="wrap_content"
+    android:visibility="visible">
 
 
-    <LinearLayout
-        android:layout_width="410dp"
-        android:layout_height="wrap_content"
-        android:background="#000000"
-        android:backgroundTint="#000000"
-        android:foregroundTint="#000000"
-        android:orientation="horizontal"
-        android:padding="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#232222"
+
+        android:minHeight="100dp">
 
         <TextView
             android:id="@+id/surahE"
             android:layout_width="170dp"
             android:layout_height="62dp"
-            android:layout_margin="5dp"
+            android:layout_margin="25dp"
             android:layout_weight="1"
             android:fontFamily="@font/jameel_noori_nastaleeq"
             android:text="TextView"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.578" />
 
         <TextView
             android:id="@+id/surahA"
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:fontFamily="@font/noorehuda"
             android:text="TextView"
             android:textAlignment="textEnd"
             android:textColor="#F02DEAB5"
-            android:textSize="34sp" />
-    </LinearLayout>
+            android:textSize="35sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/surahE"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.51" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+
